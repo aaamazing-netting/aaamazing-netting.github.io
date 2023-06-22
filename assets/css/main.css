@@ -93,8 +93,8 @@ html, body{
 	height:50px;
 }
 #main-menu ul > li > a {
-    background: transparent!important;
-    color: #fe8e00;
+    /*background: transparent!important;
+    color: #fe8e00;*/
     position: relative;
     padding: 28px 20px;
     font-weight: 400;
