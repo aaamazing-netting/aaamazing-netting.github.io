@@ -23,6 +23,9 @@ html, body{
 .navbar-brand {
 	color: #000;
 }
+.navbar-brand:hover {
+	color: #2BD924;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: 0;
@@ -228,7 +231,7 @@ h1, h2, h3, h4 {
     z-index: 1;
 }
 .btn-common:hover {
-    color: #2BD924;
+    color: #000;
     background: #fe8e00 none repeat scroll 0 0;
     position: relative;
     border: transparent;
@@ -260,7 +263,7 @@ h1, h2, h3, h4 {
   transition: all 0.3s ease-in-out 0s;
 }
 .btn:hover,button:hover,.btn:visited,button:visited  {
-  color: #2BD924;
+  color: #000;
 }
 .section {
     padding: 80px 0;
