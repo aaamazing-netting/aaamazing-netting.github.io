@@ -104,8 +104,8 @@ html, body{
 }
 #main-menu .nav-link:hover {
     color: #fff;
-	background-color: #B4570B;
-	border-color: #B4570B; 
+	background-color: #2BD924;
+	border-color: #2BD924; 
 }
 #main-menu .dropdown-toggle::after {
     border:0;
@@ -208,8 +208,8 @@ h1, h2, h3, h4 {
 }
 .btn-outline-primary:hover {
     color: #000;
-    background-color: #fe8e00;
-    border-color: #fe8e00;
+    background-color: #2BD924;
+    border-color: #2BD924;
 }
 .primary {
     color: #000;
@@ -228,7 +228,7 @@ h1, h2, h3, h4 {
     z-index: 1;
 }
 .btn-common:hover {
-    color: #eee;
+    color: #2BD924;
     background: #fe8e00 none repeat scroll 0 0;
     position: relative;
     border: transparent;
@@ -260,7 +260,7 @@ h1, h2, h3, h4 {
   transition: all 0.3s ease-in-out 0s;
 }
 .btn:hover,button:hover,.btn:visited,button:visited  {
-  color: #000;
+  color: #2BD924;
 }
 .section {
     padding: 80px 0;
