@@ -305,3 +305,48 @@ h1, h2, h3, h4 {
 	background-color: #B4570B;
 	border-color: #B4570B;
 }
+@media (max-width: 767px)
+{
+	.mobile-on {display:block;}
+	.desktop-on {display:none;}
+	.images {
+		text-align: center;
+	}
+	.split h2.title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+    .small-about {
+        font-size: 40px;
+    }
+	#main-menu ul .dropdown .dropdown-menu {
+		width: 100%;
+		display:block;
+	}
+	#main-menu { 
+		height: calc(100vh - 85px); 
+		width: 100%;
+		overflow-y: scroll;
+		padding-bottom: 40px;
+		overflow: scroll;
+		padding-top: 30px;
+	  -webkit-overflow-scrolling:touch; // mobile safari
+	}
+	#main-menu ul .dropdown .dropdown-menu a {
+		font-size: 14px;
+		color: #666;
+		display: block;
+		height: auto;
+		padding: 8px 30px;
+		line-height: 16px;
+		font-weight: 400;
+		border:none;
+		transition: all 0.3s ease-in-out 0s;
+	}
+	#main-menu ul .dropdown .dropdown-menu {
+		box-shadow:none;
+	}
+	#main-menu ul > li > a {
+		padding: 14px 10px;
+	}
+}
